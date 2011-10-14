@@ -1,0 +1,4 @@
+$("#<%= dom_id(@book) %>").replaceWith(
+  "<%= escape_javascript(render(@book)) %>"
+)
+$("#books form").remove()
