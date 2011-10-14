@@ -44,5 +44,11 @@ module TestMg
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    config.generators do |g|
+      g.scaffold_controller 'mizugumo:scaffold_controller'
+      g.template_engine 'mizugumo:erb'
+      # g.template_engine 'mizugumo:haml' # If you prefer Haml over ERB
+    end
+
   end
 end
