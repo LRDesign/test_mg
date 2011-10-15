@@ -6,4 +6,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ninjascript
+//= require mizugumo
 //= require_tree .
+//= require ninja_go // This MUST be after all NinjaScript behaviors are defined!
