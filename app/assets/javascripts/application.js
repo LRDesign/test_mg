@@ -9,4 +9,7 @@
 //= require ninjascript
 //= require mizugumo
 //= require_tree .
-//= require ninja_go // This MUST be after all NinjaScript behaviors are defined!
+//
+// Ninja.go() must occur after all other NS behaviors are defined.  So, the following
+// line should be the last one in your manifest.
+//= require ninja_go

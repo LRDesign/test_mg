@@ -1,0 +1,9 @@
+<%= content_tag_for :tr, book do %>
+    <td><%= book.title %></td>
+    <td><%= book.author %></td>
+    <td><%= book.price %></td>
+    <td><%= link_to 'Show', book %></td>
+    <td><%= link_to 'Edit', edit_book_path(book), :class => 'edit_book' %></td>
+    <td><%= link_to 'Delete', book, :confirm => 'Are you sure?', :method => :delete, :class => 'delete_book' %></td>
+  </tr>
+<% end %>
