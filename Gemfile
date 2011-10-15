@@ -7,6 +7,7 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 gem 'mizugumo'
+gem 'ruby-debug19'
 
 
 # Gems used only for assets and not required
