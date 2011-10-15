@@ -48,6 +48,7 @@ module TestMg
     config.generators do |g|
       g.scaffold_controller 'mizugumo:scaffold_controller'
       g.template_engine 'mizugumo:erb'
+      g.assets 'mizugumo:js_assets'
       # g.template_engine 'mizugumo:haml' # If you prefer Haml over ERB
     end
       
